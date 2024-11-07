@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+@media screen and (width<500px) {
+    p{
+        font-size: 28px;
+        color: brown;
+        padding: 20px;
+        background-color: lightgreen;
+        font-weight: 500;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+}
+@media screen and (width>500px) {
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aquamarine;
+        background-color: lightsalmon;
+    }
+}
